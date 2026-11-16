@@ -1,0 +1,35 @@
+{
+  "name": "swiss-countdown",
+  "version": "1.0.0",
+  "description": "黑白瑞士风格倒计时工具 / 交互桌面壁纸 · 单文件零依赖 | Black-white Swiss countdown & interactive wallpaper, single file, zero deps",
+  "bin": { "swiss-countdown": "cli.js" },
+  "files": [
+    "cli.js",
+    "todo.html",
+    "LivelyInfo.json",
+    "README.md",
+    "preview-desktop.png",
+    "preview-mobile.png",
+    "preview-wallpaper.png"
+  ],
+  "scripts": {
+    "start": "node cli.js --open"
+  },
+  "keywords": [
+    "countdown",
+    "wallpaper",
+    "lively",
+    "swiss-design",
+    "minimal",
+    "single-file",
+    "倒计时",
+    "壁纸"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stowisdom/swiss-countdown.git"
+  },
+  "homepage": "https://github.com/stowisdom/swiss-countdown#readme",
+  "engines": { "node": ">=14" },
+  "os": ["darwin", "linux", "win32"]
+}
